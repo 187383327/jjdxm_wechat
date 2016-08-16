@@ -1,7 +1,7 @@
 # [jjdxm_winchat][project] #
 
 ## Introduction ##
-社会化第三方登录、分享实现流程
+### 当前项目是将社会化第三方登录、分享中实现微信分享、微信授权登录等功能，使用到微信提供的SDK进行一个在线打包。为了方便在各个项目中快速的接入微信的sdk，特定将微信提供的SDK文件打包到jCenter上面，直接使用compile命令进行依赖即可。 ###
 
 ## Screenshots ##
 
@@ -10,9 +10,6 @@
 
 ## Download ##
 
-[demo apk下载][downapk]
-
-[下载最新版本aar][lastaar]
 
 Download or grab via Maven:
 
@@ -26,6 +23,9 @@ or Gradle:
 
 	compile 'winchat:jjdxm-winchat:x.x.x'
 
+历史版本
+
+	compile 'winchat:jjdxm-winchat:1.0.0' 对应版本 libammsdk.jar
 
 jjdxm-winchat requires at minimum Java 15 or Android 4.0.
 
