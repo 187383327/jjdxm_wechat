@@ -39,9 +39,9 @@ or Gradle:
 
 	compile 'winchat:jjdxm-winchat:1.0.0' 对应版本 libammsdk.jar
 
-[架包的打包引用以及冲突解决][jaraar]
+jjdxm-winchat requires at minimum Java 15 or Android 4.0.
 
-jjdxm-periscope requires at minimum Java 15 or Android 4.0.
+[架包的打包引用以及冲突解决][jaraar]
 
 ## Proguard ##
 
