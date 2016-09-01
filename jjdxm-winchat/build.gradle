@@ -9,7 +9,7 @@ ext {
     jjdxm_groupId = 'com.dou361.winchat'
     jjdxm_artifactId = 'jjdxm-winchat'
 
-    jjdxm_libraryVersion = '1.0.0'
+    jjdxm_libraryVersion = '1.0.1'
     jjdxm_libraryName = 'jjdxm-winchat'
     jjdxm_libraryDescription = 'this is a winchat library of the application'
 

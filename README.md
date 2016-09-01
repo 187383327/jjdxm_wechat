@@ -37,7 +37,8 @@ or Gradle:
 
 历史版本
 
-	compile 'winchat:jjdxm-winchat:1.0.0' 对应版本 libammsdk.jar
+    compile 'winchat:jjdxm-winchat:1.0.1' 对应版本 libammsdk.jar 最小版本9
+	compile 'winchat:jjdxm-winchat:1.0.0' 对应版本 libammsdk.jar 最小版本15
 
 jjdxm-winchat requires at minimum Java 15 or Android 4.0.
 
