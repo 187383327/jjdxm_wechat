@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jjdxm-winchat/jjdxm-winchat.iml" filepath="$PROJECT_DIR$/jjdxm-winchat/jjdxm-winchat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jjdxm_winchat.iml" filepath="$PROJECT_DIR$/jjdxm_winchat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjdxm-wechat/jjdxm-wechat.iml" filepath="$PROJECT_DIR$/jjdxm-wechat/jjdxm-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjdxm_wechat.iml" filepath="$PROJECT_DIR$/jjdxm_wechat.iml" />
     </modules>
   </component>
 </project>

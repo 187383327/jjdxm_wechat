@@ -1,4 +1,4 @@
-# [jjdxm_winchat][project] #
+# [jjdxm_wechat][project] #
 
 ### Copyright notice ###
 
@@ -15,10 +15,12 @@
 ## Introduction ##
 ### 当前项目是将社会化第三方登录、分享中实现微信分享、微信授权登录和微信支付功能等功能，使用到微信提供的SDK进行一个在线打包。为了方便在各个项目中快速的接入微信的sdk，特定将微信提供的SDK文件打包到jCenter上面，直接使用compile命令进行依赖即可。 ###
 
+官方sdk下载地址： [https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319167&token=&lang=zh_CN](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319167&token=&lang=zh_CN)
+
 ## Screenshots ##
 
-<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/screenshots/icon01.png" width="300"> 
-<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/screenshots/icon02.png" width="300"> 
+<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/screenshots/icon01.png" width="300"> 
+<img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/screenshots/icon02.png" width="300"> 
 
 ## Download ##
 
@@ -26,21 +28,21 @@
 Download or grab via Maven:
 
 	<dependency>
-	  <groupId>winchat</groupId>
-	  <artifactId>jjdxm-winchat</artifactId>
+	  <groupId>com.dou.361.wechat</groupId>
+	  <artifactId>jjdxm-wechat</artifactId>
 	  <version>x.x.x</version>
 	</dependency>
 
 or Gradle:
 
-	compile 'winchat:jjdxm-winchat:x.x.x'
+	compile 'com.dou.361.wechat:jjdxm-wechat:x.x.x'
 
 历史版本
 
-    compile 'winchat:jjdxm-winchat:1.0.1' 对应版本 libammsdk.jar 最小版本9
-	compile 'winchat:jjdxm-winchat:1.0.0' 对应版本 libammsdk.jar 最小版本15
+    compile 'com.dou.361.wechat:jjdxm-wechat:1.0.1' 对应版本 libammsdk.jar 最小版本9
+	compile 'com.dou.361.wechat:jjdxm-wechat:1.0.0' 对应版本 libammsdk.jar 最小版本15
 
-jjdxm-winchat requires at minimum Java 15 or Android 4.0.
+jjdxm-wechat requires at minimum Java 9 or Android 2.3.
 
 [架包的打包引用以及冲突解决][jaraar]
 
@@ -57,7 +59,7 @@ jjdxm-winchat requires at minimum Java 15 or Android 4.0.
 
 ## Get Started ##
 
-1.[微信开发平台][openwinchat]注册一个开发者账号
+1.[微信开发平台][openwechat]注册一个开发者账号
 
 2.申请你的AppID
 请到 开发者应用登记页面 进行登记，登记并选择移动应用进行设置后，将该应用提交审核，只有审核通过的应用才能进行开发。
@@ -109,14 +111,14 @@ If you find any bug when using project, please report [here][issues]. Thanks for
 
 [web]:http://www.dou361.com
 [github]:https://github.com/jjdxmashl/
-[project]:https://github.com/jjdxmashl/jjdxm_winchat/
-[issues]:https://github.com/jjdxmashl/jjdxm_winchat/issues/new
-[downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/apk/app-debug.apk
-[downsignapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/Gen_Signature_Android2.apk
-[lastaar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/release/jjdxm-winchat-1.0.0.aar
-[lastjar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/release/jjdxm-winchat-1.0.0.jar
-[icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/screenshots/icon01.png
-[icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_winchat/master/screenshots/icon02.png
+[project]:https://github.com/jjdxmashl/jjdxm_wechat/
+[issues]:https://github.com/jjdxmashl/jjdxm_wechat/issues/new
+[downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/apk/app-debug.apk
+[downsignapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/Gen_Signature_Android2.apk
+[lastaar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/release/jjdxm-wechat-1.0.0.aar
+[lastjar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/release/jjdxm-wechat-1.0.0.jar
+[icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/screenshots/icon01.png
+[icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_wechat/master/screenshots/icon02.png
 [jaraar]:https://github.com/jjdxmashl/jjdxm_ecodingprocess/blob/master/架包的打包引用以及冲突解决.md
 [minify]:https://github.com/jjdxmashl/jjdxm_ecodingprocess/blob/master/AndroidStudio代码混淆注意的问题.md
-[openwinchat]:https://open.weixin.qq.com
+[openwechat]:https://open.weixin.qq.com

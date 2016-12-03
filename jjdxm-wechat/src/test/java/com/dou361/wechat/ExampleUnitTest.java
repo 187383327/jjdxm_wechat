@@ -1,4 +1,4 @@
-package com.dou361.winchat;
+package com.dou361.wechat;
 
 import org.junit.Test;
 

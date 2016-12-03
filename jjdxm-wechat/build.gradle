@@ -3,18 +3,18 @@ apply plugin: 'com.android.library'
 ext {
     //类库的module名、bintray上项目名、artifactId最好是一致的
     jjdxm_bintrayRepo = 'maven'
-    jjdxm_bintrayName = 'jjdxm-winchat'
+    jjdxm_bintrayName = 'jjdxm-wechat'
 
     jjdxm_packaging = 'aar'
-    jjdxm_groupId = 'com.dou361.winchat'
-    jjdxm_artifactId = 'jjdxm-winchat'
+    jjdxm_groupId = 'com.dou361.wechat'
+    jjdxm_artifactId = 'jjdxm-wechat'
 
     jjdxm_libraryVersion = '1.0.1'
-    jjdxm_libraryName = 'jjdxm-winchat'
-    jjdxm_libraryDescription = 'this is a winchat library of the application'
+    jjdxm_libraryName = 'jjdxm-wechat'
+    jjdxm_libraryDescription = 'this is a wechat library of the application'
 
-    jjdxm_siteUrl = 'https://github.com/jjdxmashl/jjdxm_winchat'
-    jjdxm_gitUrl = 'https://github.com/jjdxmashl/jjdxm_winchat.git'
+    jjdxm_siteUrl = 'https://github.com/jjdxmashl/jjdxm_wechat'
+    jjdxm_gitUrl = 'https://github.com/jjdxmashl/jjdxm_wechat.git'
 
     jjdxm_developerId = 'jjdxmashl'
     jjdxm_developerName = 'jjdxmashl'
@@ -52,4 +52,4 @@ dependencies {
 }
 
 //apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_ecodingprocess/master/bulidlib.gradle'
-apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_ecodingprocess/master/bintray.gradle'
+//apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_ecodingprocess/master/bintray.gradle'

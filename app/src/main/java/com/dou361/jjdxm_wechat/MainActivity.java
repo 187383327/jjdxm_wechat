@@ -1,4 +1,4 @@
-package com.dou361.jjdxm_winchat;
+package com.dou361.jjdxm_wechat;
 
 import android.app.Activity;
 import android.os.Bundle;

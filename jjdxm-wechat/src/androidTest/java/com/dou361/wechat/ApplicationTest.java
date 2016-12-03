@@ -1,4 +1,4 @@
-package com.dou361.jjdxm_winchat;
+package com.dou361.wechat;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

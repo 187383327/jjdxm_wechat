@@ -25,7 +25,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.dou361.jjdxm_winchat"
+        applicationId "com.dou361.jjdxm_wechat"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.versionCode
@@ -52,5 +52,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile rootProject.ext.jjdxm_v7
     compile 'com.jakewharton:butterknife:7.0.1'
-    compile project(':jjdxm-winchat')
+    compile project(':jjdxm-wechat')
 }
